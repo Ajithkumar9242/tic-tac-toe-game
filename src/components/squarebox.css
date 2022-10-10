@@ -1,0 +1,20 @@
+.square {
+    min-width: 80px;
+    min-height: 80px;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid wheat;
+}
+
+@media screen and (max-width: 480px){
+    .square{
+        min-width: 60px;
+        min-height: 60px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
